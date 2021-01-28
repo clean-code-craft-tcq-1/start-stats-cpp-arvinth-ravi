@@ -15,6 +15,6 @@ Stats Statistics::ComputeStatistics(const std::vector<float>& vect) {
 			t = t + *itr;
 		}
 
-		S1.avg = t / t.size() ;
+		S1.avg = t / vect.size() ;
 		return S1;
 }
